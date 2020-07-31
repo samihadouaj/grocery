@@ -15,15 +15,15 @@ public class ProductController {
     public ProductController() {
         this.productRepository = new ProductRepository();
     }
-    
+
     public void print(List<Product> products) {
-       
+
         String template = "%-2s %4s %-7s %4s %-5s";
 
         System.out.println("-------------------------------");
         System.out.println(String.format(template, "Id", "|", "Name", "|", "Amount"));
         System.out.println("-------------------------------");
-        
+
         for (Product p : products) {
             System.out.println(String.format(template, p.getId(), "|", p.getName(), "|", p.getAmount()));
         }
@@ -50,26 +50,26 @@ public class ProductController {
     public void listAll() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "List All");
-        
+
         print(productRepository.findAll());
-        
+
         SystemUtils.pressEnterKeyToContinue();
     }
 
     public void remove() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "Remove by Id");
-        
+
         System.out.print("Id: ");
-        
+
         int id = SystemUtils.getIntFromKeyboard();
 
         System.out.println("----------------");
-        
+
         Product removed = productRepository.removeById(id);
 
         if (removed == null) {
@@ -80,22 +80,22 @@ public class ProductController {
 
         SystemUtils.pressEnterKeyToContinue();
     }
-    
+
     public void searchByName() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "Search by Name");
-        
+
         System.out.print("Name: ");
-        
+
         String name = SystemUtils.getStringFromKeyboard();
 
         print(productRepository.findByName(name));
-        
+
         SystemUtils.pressEnterKeyToContinue();
     }
-    
+
     public void searchById() {
 
         SystemUtils.clearScreen();
@@ -120,9 +120,9 @@ public class ProductController {
     public void addProduct() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "Add");
-        
+
         Product product = new Product();
 
         System.out.print("Name: ");
@@ -135,7 +135,9 @@ public class ProductController {
     }
 
     public void start() {
-
+        Shapes shapes = new Shapes();
+        int sr = shapes.calculateShape("cercle");
+        System.out.println("this is a useless thing for test: "+ sr);
         int option = showMenu();
 
         while (option != 9) {
