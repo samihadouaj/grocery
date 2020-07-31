@@ -27,7 +27,7 @@ public class MainClass {
 
         return SystemUtils.getIntFromKeyboard();
     }
-    public boolean msmsms(int a, int b) {
+    public boolean maxx(int a, int b) {
     if(a > b) {
         return true;
     } else if (a == b) {
