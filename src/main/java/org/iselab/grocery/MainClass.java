@@ -29,6 +29,9 @@ public class MainClass {
     }
 
     public void run() {
+         Shapes shapes = new Shapes();
+        int sr = shapes.calculateShape("cercle");
+        System.out.println("this is a useless thing for test: "+ sr);
 
         int option = showMenu();
 
