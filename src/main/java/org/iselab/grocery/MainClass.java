@@ -27,6 +27,15 @@ public class MainClass {
 
         return SystemUtils.getIntFromKeyboard();
     }
+    public boolean msmsms(int a, int b) {
+    if(a > b) {
+        return true;
+    } else if (a == b) {
+        return false;
+    } else {
+        return false;
+    }
+}
 
     public void run() {
          Shapes shapes = new Shapes();
