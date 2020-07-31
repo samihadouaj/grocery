@@ -1,3 +1,14 @@
+->RefactoringNumber->22<-ExtractClass(org.iselab.grocery.MainClass;Class_2;[];[showMenu])
+->RefactoringNumber->40<-MoveField(org.iselab.grocery.MainClass;org.iselab.grocery.controller.Shapes;[class_2];[])
+->RefactoringNumber->44<-IncreaseFieldSecurity(org.iselab.grocery.MainClass;;[shapes];[])
+->RefactoringNumber->62<-ExtractClass(org.iselab.grocery.MainClass;Class_17;[];[main])
+->RefactoringNumber->67<-ExtractSubClass(org.iselab.grocery.MainClass;Class_19;[class_17];[run])
+->RefactoringNumber->102<-PullUpMethod(Class_19;org.iselab.grocery.MainClass;[];[run])
+->RefactoringNumber->104<-ExtractSuperClass(org.iselab.grocery.MainClass;Class_27;[];[run])
+->RefactoringNumber->108<-PullUpField(org.iselab.grocery.MainClass;Class_27;[shapes];[])
+->RefactoringNumber->119<-PushDownField(Class_27;org.iselab.grocery.MainClass;[product];[])
+->RefactoringNumber->131<-PullUpMethod(org.iselab.grocery.MainClass;Class_27;[];[run])
+<-endRefactoring marker->
 package org.iselab.grocery;
 
 import org.iselab.grocery.controller.ProductController;

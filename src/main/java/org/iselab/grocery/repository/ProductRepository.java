@@ -1,3 +1,10 @@
+->RefactoringNumber->21<-ExtractClass(org.iselab.grocery.repository.ProductRepository;Class_1;[];[findByName|removeById])
+->RefactoringNumber->32<-ExtractClass(org.iselab.grocery.repository.ProductRepository;Class_7;[products];[findAll|save])
+->RefactoringNumber->43<-ExtractSuperClass(org.iselab.grocery.repository.ProductRepository;Class_12;[class_7];[findByName])
+->RefactoringNumber->59<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_12;[];[save])
+->RefactoringNumber->83<-MoveMethod(Class_15;org.iselab.grocery.repository.ProductRepository;[];[closeScanner])
+->RefactoringNumber->112<-ExtractSubClass(org.iselab.grocery.repository.ProductRepository;Class_29;[];[closeScanner|findById])
+<-endRefactoring marker->
 package org.iselab.grocery.repository;
 
 import java.util.ArrayList;
