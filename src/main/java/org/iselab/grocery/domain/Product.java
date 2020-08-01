@@ -1,3 +1,12 @@
+->RefactoringNumber->9217<-DecreaseFieldSecurity(org.iselab.grocery.domain.Product;;[price];[])
+->RefactoringNumber->9221<-ExtractSuperClass(org.iselab.grocery.domain.Product;Class_2;[id];[setId])
+->RefactoringNumber->9222<-PushDownField(Class_2;org.iselab.grocery.domain.Product;[id];[])
+->RefactoringNumber->9223<-PullUpField(org.iselab.grocery.domain.Product;Class_2;[id];[])
+->RefactoringNumber->9232<-PullUpField(org.iselab.grocery.domain.Product;Class_2;[amount];[])
+->RefactoringNumber->9246<-PullUpField(org.iselab.grocery.domain.Product;Class_2;[name];[])
+->RefactoringNumber->9258<-PullUpField(org.iselab.grocery.domain.Product;Class_2;[price];[])
+->RefactoringNumber->9301<-MoveMethod(Class_13;org.iselab.grocery.domain.Product;[];[getIntFromKeyboard])
+<-endRefactoring marker->
 package org.iselab.grocery.domain;
 
 import org.iselab.grocery.util.UUIDUtils;

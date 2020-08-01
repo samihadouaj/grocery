@@ -1,3 +1,13 @@
+->RefactoringNumber->9218<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.controller.Order;[input];[])
+->RefactoringNumber->9220<-IncreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[order];[])
+->RefactoringNumber->9240<-ExtractClass(org.iselab.grocery.util.SystemUtils;Class_7;[];[clearScreen|closeScanner|getIntFromKeyboard|setInput])
+->RefactoringNumber->9251<-ExtractSubClass(org.iselab.grocery.util.SystemUtils;Class_11;[order];[clearScreen])
+->RefactoringNumber->9253<-ExtractClass(org.iselab.grocery.util.SystemUtils;Class_13;[];[getIntFromKeyboard|pressEnterKeyToContinue])
+->RefactoringNumber->9256<-PushDownMethod(org.iselab.grocery.util.SystemUtils;Class_11;[];[setInput])
+->RefactoringNumber->9268<-PullUpField(Class_11;org.iselab.grocery.util.SystemUtils;[order];[])
+->RefactoringNumber->9282<-PullUpMethod(Class_11;org.iselab.grocery.util.SystemUtils;[];[clearScreen])
+->RefactoringNumber->9286<-MoveField(Class_3;org.iselab.grocery.util.SystemUtils;[class_14];[])
+<-endRefactoring marker->
 package org.iselab.grocery.util;
 
 import java.util.Arrays;
