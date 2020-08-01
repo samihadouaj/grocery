@@ -1,10 +1,10 @@
-->RefactoringNumber->9214<-ExtractSuperClass(org.iselab.grocery.repository.ProductRepository;Class_1;[];[findByName|max|save])
-->RefactoringNumber->9215<-PullUpField(org.iselab.grocery.repository.ProductRepository;Class_1;[products];[])
-->RefactoringNumber->9216<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[max])
-->RefactoringNumber->9224<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[save])
-->RefactoringNumber->9228<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[save])
-->RefactoringNumber->9229<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[max])
-->RefactoringNumber->9233<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[findByName])
+->RefactoringNumber->9214<-ExtractSuperClass(org.iselab.grocery.repository.ProductRepository;Class_1;[];[findByName|max|save])accepted
+->RefactoringNumber->9215<-PullUpField(org.iselab.grocery.repository.ProductRepository;Class_1;[products];[])accepted
+->RefactoringNumber->9216<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[max])accepted
+->RefactoringNumber->9224<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[save])accepted
+->RefactoringNumber->9228<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[save])accepted
+->RefactoringNumber->9229<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[max])accepted
+->RefactoringNumber->9233<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[findByName])accepted
 ->RefactoringNumber->9249<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[max])
 ->RefactoringNumber->9271<-ExtractSubClass(org.iselab.grocery.repository.ProductRepository;Class_18;[];[findAll])
 ->RefactoringNumber->9275<-PushDownMethod(org.iselab.grocery.repository.ProductRepository;Class_18;[];[findByName])

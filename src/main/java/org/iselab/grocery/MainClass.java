@@ -1,7 +1,7 @@
-->RefactoringNumber->9235<-ExtractSubClass(org.iselab.grocery.MainClass;Class_5;[];[run])
-->RefactoringNumber->9269<-PullUpField(Class_5;org.iselab.grocery.MainClass;[class_16];[])
-->RefactoringNumber->9291<-PushDownMethod(org.iselab.grocery.MainClass;Class_5;[];[showMenu])
-->RefactoringNumber->9302<-IncreaseFieldSecurity(org.iselab.grocery.MainClass;;[class_16];[])
+->RefactoringNumber->9235<-ExtractSubClass(org.iselab.grocery.MainClass;Class_5;[];[run])accepted
+->RefactoringNumber->9269<-PullUpField(Class_5;org.iselab.grocery.MainClass;[class_16];[])accepted
+->RefactoringNumber->9291<-PushDownMethod(org.iselab.grocery.MainClass;Class_5;[];[showMenu])accepted
+->RefactoringNumber->9302<-IncreaseFieldSecurity(org.iselab.grocery.MainClass;;[class_16];[])accepted
 <-endRefactoring marker->
 package org.iselab.grocery;
 
