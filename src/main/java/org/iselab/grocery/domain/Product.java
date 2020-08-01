@@ -10,6 +10,23 @@ public class Product {
 
     private int amount;
 
+    private int price;
+
+    public int getPrice() {
+        return price;
+    }
+
+    public Product(int id, String name, int amount, int price) {
+        this.id = id;
+        this.name = name;
+        this.amount = amount;
+        this.price = price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
     public Product() {
         this.id = UUIDUtils.getId();
     }
@@ -40,15 +57,16 @@ public class Product {
 
     @Override
     public String toString() {
-        
+
         StringBuilder builder = new StringBuilder();
-        
+
         builder.append("{");
         builder.append("id: ").append(id).append(", ");
         builder.append("name: \"").append(name).append("\", ");
         builder.append("amount: ").append(amount);
+        builder.append("price: ").append(price);
         builder.append("}");
-        
+
         return builder.toString();
     }
 }

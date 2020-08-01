@@ -1,5 +1,7 @@
 package org.iselab.grocery;
 
+import com.sun.org.apache.xpath.internal.operations.Or;
+import org.iselab.grocery.controller.Order;
 import org.iselab.grocery.controller.ProductController;
 import org.iselab.grocery.util.SystemUtils;
 
@@ -19,7 +21,7 @@ public class MainClass {
         SystemUtils.clearScreen();
 
         SystemUtils.printHeader();
-        
+
         System.out.println("  [1] Products");
         System.out.println("  [9] Exit");
 
@@ -30,6 +32,8 @@ public class MainClass {
 
     public void run() {
 
+        Order order = new Order();
+        System.out.println(order.calculateTotal("US"));
         int option = showMenu();
 
         while (option != 9) {

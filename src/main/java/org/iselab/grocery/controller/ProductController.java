@@ -136,8 +136,7 @@ public class ProductController {
 
     public void start() {
         Shapes shapes = new Shapes();
-        int sr = shapes.calculateShape("cercle");
-        System.out.println("this is a useless thing for test: "+ sr);
+        int sr = shapes.calculateShape("circle");
         int option = showMenu();
 
         while (option != 9) {
