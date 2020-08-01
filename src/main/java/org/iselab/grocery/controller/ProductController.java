@@ -4,7 +4,7 @@
 ->RefactoringNumber->9237<-PullUpMethod(Class_3;org.iselab.grocery.controller.ProductController;[];[searchByName])
 ->RefactoringNumber->9278<-PushDownMethod(org.iselab.grocery.controller.ProductController;Class_3;[];[listAll])
 ->RefactoringNumber->9287<-PullUpField(Class_3;org.iselab.grocery.controller.ProductController;[systemutils];[])
-->RefactoringNumber->9294<-MoveField(org.iselab.grocery.controller.ProductController;org.iselab.grocery.controller.Shapes;[class_4];[])
+->RefactoringNumber->9294<-MoveField(org.iselab.grocery.controller.ProductController;org.iselab.grocery.controller.Shapes;[class_4];[])accepted
 ->RefactoringNumber->9304<-ExtractClass(org.iselab.grocery.controller.ProductController;Class_25;[shapes];[print])
 <-endRefactoring marker->
 package org.iselab.grocery.controller;
