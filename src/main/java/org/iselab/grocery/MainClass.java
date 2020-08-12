@@ -1,3 +1,11 @@
+->RefactoringNumber->42617<-ExtractClass(org.iselab.grocery.MainClass;Class_1;[];[run])
+->RefactoringNumber->42654<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.MainClass;[shapes];[])
+->RefactoringNumber->42659<-DecreaseFieldSecurity(org.iselab.grocery.MainClass;;[class_1];[])
+->RefactoringNumber->42668<-ExtractSubClass(org.iselab.grocery.MainClass;Class_28;[];[])
+->RefactoringNumber->42695<-MoveField(org.iselab.grocery.MainClass;Class_29;[class_1];[])
+->RefactoringNumber->42709<-PushDownField(org.iselab.grocery.MainClass;Class_28;[class_29];[])
+->RefactoringNumber->42712<-PullUpField(Class_28;org.iselab.grocery.MainClass;[class_29];[])
+<-endRefactoring marker->
 package org.iselab.grocery;
 
 import com.sun.org.apache.xpath.internal.operations.Or;

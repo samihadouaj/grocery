@@ -1,3 +1,12 @@
+->RefactoringNumber->42621<-ExtractClass(org.iselab.grocery.controller.ProductController;Class_3;[];[remove|searchByName|showMenu|start])
+->RefactoringNumber->42651<-ExtractSuperClass(org.iselab.grocery.controller.ProductController;Class_16;[];[remove|showMenu])
+->RefactoringNumber->42661<-DecreaseFieldSecurity(org.iselab.grocery.controller.ProductController;;[productRepository];[])
+->RefactoringNumber->42663<-ExtractSuperClass(org.iselab.grocery.controller.ProductController;Class_23;[];[start])
+->RefactoringNumber->42673<-MoveMethod(org.iselab.grocery.controller.ProductController;org.iselab.grocery.controller.Shapes;[];[print])
+->RefactoringNumber->42677<-ExtractSubClass(org.iselab.grocery.controller.ProductController;Class_32;[shapes];[searchByName])
+->RefactoringNumber->42681<-PullUpField(Class_32;org.iselab.grocery.controller.ProductController;[shapes];[])
+->RefactoringNumber->42689<-MoveField(org.iselab.grocery.controller.ProductController;Class_36;[shapes];[])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;
