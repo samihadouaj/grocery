@@ -1,3 +1,8 @@
+->RefactoringNumber->10277<-ExtractSuperClass(org.iselab.grocery.controller.ProductController;Class_1;[];[start])
+->RefactoringNumber->10286<-PullUpField(org.iselab.grocery.controller.ProductController;Class_1;[productRepository];[])
+->RefactoringNumber->10345<-MoveMethod(org.iselab.grocery.controller.Shapes;org.iselab.grocery.controller.ProductController;[];[calculateShape])
+->RefactoringNumber->10359<-MoveField(org.iselab.grocery.repository.ProductRepository;org.iselab.grocery.controller.ProductController;[customer];[])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;

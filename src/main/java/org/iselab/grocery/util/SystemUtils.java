@@ -1,3 +1,17 @@
+->RefactoringNumber->10283<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.repository.ProductRepository;[input];[])
+->RefactoringNumber->10291<-IncreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[productrepository];[])
+->RefactoringNumber->10298<-DecreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[productrepository];[])
+->RefactoringNumber->10310<-ExtractSuperClass(org.iselab.grocery.util.SystemUtils;Class_9;[];[getStringFromKeyboard|pressEnterKeyToContinue])
+->RefactoringNumber->10314<-PushDownMethod(Class_9;org.iselab.grocery.util.SystemUtils;[];[pressEnterKeyToContinue])
+->RefactoringNumber->10317<-PullUpMethod(org.iselab.grocery.util.SystemUtils;Class_9;[];[printHeader])
+->RefactoringNumber->10318<-PullUpField(org.iselab.grocery.util.SystemUtils;Class_9;[productrepository];[])
+->RefactoringNumber->10326<-IncreaseMethodSecurity(org.iselab.grocery.util.SystemUtils;;[];[pressEnterKeyToContinue])
+->RefactoringNumber->10331<-ExtractSubClass(org.iselab.grocery.util.SystemUtils;Class_12;[];[getInput|getIntFromKeyboard|pressEnterKeyToContinue])
+->RefactoringNumber->10346<-PushDownMethod(org.iselab.grocery.util.SystemUtils;Class_12;[];[closeScanner])
+->RefactoringNumber->10358<-PullUpField(Class_12;org.iselab.grocery.util.SystemUtils;[class_1];[])
+->RefactoringNumber->10361<-PushDownMethod(Class_9;org.iselab.grocery.util.SystemUtils;[];[printHeader])
+->RefactoringNumber->10372<-PushDownField(org.iselab.grocery.util.SystemUtils;Class_12;[class_1];[])
+<-endRefactoring marker->
 package org.iselab.grocery.util;
 
 import java.util.Arrays;
