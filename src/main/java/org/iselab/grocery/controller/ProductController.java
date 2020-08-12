@@ -1,3 +1,8 @@
+->RefactoringNumber->38<-MoveMethod(org.iselab.grocery.controller.Shapes;org.iselab.grocery.controller.ProductController;[];[calculateShape])
+->RefactoringNumber->83<-ExtractSubClass(org.iselab.grocery.controller.ProductController;Class_19;[];[searchByName])
+->RefactoringNumber->127<-DecreaseFieldSecurity(org.iselab.grocery.controller.ProductController;;[productRepository];[])
+->RefactoringNumber->140<-IncreaseMethodSecurity(org.iselab.grocery.controller.ProductController;;[];[remove])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;
