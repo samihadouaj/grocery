@@ -1,3 +1,10 @@
+->RefactoringNumber->52775<-MoveMethod(org.iselab.grocery.controller.Order;Class_1;[];[calculateTotal])
+->RefactoringNumber->52776<-IncreaseFieldSecurity(org.iselab.grocery.controller.Order;;[class_1];[])
+->RefactoringNumber->52824<-IncreaseMethodSecurity(org.iselab.grocery.controller.Order;;[];[calculateTotal])
+->RefactoringNumber->52828<-IncreaseMethodSecurity(org.iselab.grocery.controller.Order;;[];[calculateTotal])
+->RefactoringNumber->52856<-DecreaseMethodSecurity(org.iselab.grocery.controller.Order;;[];[calculateTotal])
+->RefactoringNumber->52867<-IncreaseMethodSecurity(org.iselab.grocery.controller.Order;;[];[calculateTotal])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 

@@ -1,3 +1,8 @@
+->RefactoringNumber->52790<-ExtractSubClass(org.iselab.grocery.controller.ProductController;Class_7;[];[searchByName])
+->RefactoringNumber->52791<-PushDownMethod(org.iselab.grocery.controller.ProductController;Class_7;[];[remove])
+->RefactoringNumber->52822<-PushDownField(org.iselab.grocery.controller.ProductController;Class_7;[productRepository];[])
+->RefactoringNumber->52826<-ExtractSuperClass(org.iselab.grocery.controller.ProductController;Class_17;[];[print|searchById])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;
