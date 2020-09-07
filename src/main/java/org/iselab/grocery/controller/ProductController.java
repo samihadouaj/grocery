@@ -1,3 +1,7 @@
+->RefactoringNumber->35<-ExtractSuperClass(org.iselab.grocery.controller.ProductController;Class_6;[];[listAll|searchByName|start])
+->RefactoringNumber->59<-DecreaseFieldSecurity(org.iselab.grocery.controller.ProductController;;[productRepository];[])
+->RefactoringNumber->60<-PullUpField(org.iselab.grocery.controller.ProductController;Class_6;[productRepository];[])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;
