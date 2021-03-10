@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
+    public int add(int a, int b){
+        return a+b;
+    }
     // ...
 
     public double calculateTotal(String country) {
