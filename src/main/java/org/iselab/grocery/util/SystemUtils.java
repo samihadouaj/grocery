@@ -1,3 +1,13 @@
+->RefactoringNumber->136<-IncreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[input];[])
+->RefactoringNumber->141<-IncreaseMethodSecurity(org.iselab.grocery.util.SystemUtils;;[];[printHeader])
+->RefactoringNumber->152<-DecreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[input];[])
+->RefactoringNumber->160<-IncreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[input];[])
+->RefactoringNumber->170<-DecreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[input];[])
+->RefactoringNumber->175<-MoveField(org.iselab.grocery.util.SystemUtils;Class_7;[input];[])
+->RefactoringNumber->222<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.controller.Order;[class_7];[])
+->RefactoringNumber->225<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.MainClass;[order];[])
+->RefactoringNumber->233<-IncreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[mainclass];[])
+<-endRefactoring marker->
 package org.iselab.grocery.util;
 
 import java.util.Arrays;

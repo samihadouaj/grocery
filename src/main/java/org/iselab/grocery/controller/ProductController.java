@@ -1,3 +1,7 @@
+->RefactoringNumber->145<-DecreaseFieldSecurity(org.iselab.grocery.controller.ProductController;;[productRepository];[])
+->RefactoringNumber->185<-DecreaseFieldSecurity(org.iselab.grocery.controller.ProductController;;[productRepository];[])
+->RefactoringNumber->229<-MoveField(org.iselab.grocery.controller.ProductController;org.iselab.grocery.controller.Order;[productRepository];[])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;

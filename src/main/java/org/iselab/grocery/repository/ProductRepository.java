@@ -1,3 +1,23 @@
+->RefactoringNumber->135<-DecreaseFieldSecurity(org.iselab.grocery.repository.ProductRepository;;[products];[])
+->RefactoringNumber->139<-ExtractSuperClass(org.iselab.grocery.repository.ProductRepository;Class_1;[];[findById|removeById|save])
+->RefactoringNumber->144<-DecreaseFieldSecurity(org.iselab.grocery.repository.ProductRepository;;[products];[])
+->RefactoringNumber->146<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[findById])
+->RefactoringNumber->149<-EncapsulateField(org.iselab.grocery.repository.ProductRepository;;[products];[])
+->RefactoringNumber->150<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[getProducts])
+->RefactoringNumber->154<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[save])
+->RefactoringNumber->164<-ExtractClass(org.iselab.grocery.repository.ProductRepository;Class_8;[];[findByName|max|setProducts])
+->RefactoringNumber->167<-PullUpField(org.iselab.grocery.repository.ProductRepository;Class_1;[class_8];[])
+->RefactoringNumber->168<-PushDownField(Class_1;org.iselab.grocery.repository.ProductRepository;[class_8];[])
+->RefactoringNumber->173<-PushDownMethod(Class_1;org.iselab.grocery.repository.ProductRepository;[];[getProducts])
+->RefactoringNumber->184<-ExtractClass(org.iselab.grocery.repository.ProductRepository;Class_12;[];[findByName|getProducts|setProducts])
+->RefactoringNumber->187<-ExtractClass(org.iselab.grocery.repository.ProductRepository;Class_14;[class_8];[findAll|removeById])
+->RefactoringNumber->190<-DecreaseFieldSecurity(org.iselab.grocery.repository.ProductRepository;;[class_12];[])
+->RefactoringNumber->195<-PullUpField(org.iselab.grocery.repository.ProductRepository;Class_1;[class_14];[])
+->RefactoringNumber->196<-PullUpField(org.iselab.grocery.repository.ProductRepository;Class_1;[class_12];[])
+->RefactoringNumber->206<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[setProducts])
+->RefactoringNumber->216<-PullUpMethod(org.iselab.grocery.repository.ProductRepository;Class_1;[];[findByName])
+->RefactoringNumber->224<-IncreaseMethodSecurity(org.iselab.grocery.repository.ProductRepository;;[];[removeById])
+<-endRefactoring marker->
 package org.iselab.grocery.repository;
 
 import java.util.ArrayList;
