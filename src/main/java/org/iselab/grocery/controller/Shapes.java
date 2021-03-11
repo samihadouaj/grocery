@@ -1,3 +1,8 @@
+->RefactoringNumber->29<-MoveMethod(org.iselab.grocery.controller.Order;org.iselab.grocery.controller.Shapes;[];[calculateTotal])
+->RefactoringNumber->69<-ExtractSubClass(org.iselab.grocery.controller.Shapes;Class_10;[];[calculateTotal])
+->RefactoringNumber->81<-PushDownMethod(org.iselab.grocery.controller.Shapes;Class_10;[];[calculateShape])
+->RefactoringNumber->123<-PullUpMethod(Class_10;org.iselab.grocery.controller.Shapes;[];[calculateShape])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 public class Shapes {

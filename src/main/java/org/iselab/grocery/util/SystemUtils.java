@@ -1,3 +1,7 @@
+->RefactoringNumber->34<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.repository.ProductRepository;[input];[])
+->RefactoringNumber->41<-IncreaseFieldSecurity(org.iselab.grocery.util.SystemUtils;;[productrepository];[])
+->RefactoringNumber->45<-IncreaseMethodSecurity(org.iselab.grocery.util.SystemUtils;;[];[getInput])
+<-endRefactoring marker->
 package org.iselab.grocery.util;
 
 import java.util.Arrays;

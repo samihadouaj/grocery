@@ -1,3 +1,25 @@
+->RefactoringNumber->31<-MoveField(org.iselab.grocery.repository.ProductRepository;org.iselab.grocery.controller.Order;[products];[])
+->RefactoringNumber->34<-MoveField(org.iselab.grocery.util.SystemUtils;org.iselab.grocery.repository.ProductRepository;[input];[])
+->RefactoringNumber->38<-MoveField(org.iselab.grocery.repository.ProductRepository;Class_2;[input];[])
+->RefactoringNumber->46<-MoveMethod(org.iselab.grocery.controller.Order;org.iselab.grocery.repository.ProductRepository;[];[add])
+->RefactoringNumber->48<-IncreaseMethodSecurity(org.iselab.grocery.repository.ProductRepository;;[];[max])
+->RefactoringNumber->53<-DecreaseFieldSecurity(org.iselab.grocery.repository.ProductRepository;;[class_2];[])
+->RefactoringNumber->55<-MoveField(org.iselab.grocery.repository.ProductRepository;org.iselab.grocery.util.UUIDUtils;[order];[])
+->RefactoringNumber->57<-ExtractSubClass(org.iselab.grocery.repository.ProductRepository;Class_8;[class_2];[findAll|findById|getInput|removeById])
+->RefactoringNumber->63<-PushDownMethod(org.iselab.grocery.repository.ProductRepository;Class_8;[];[findByName])
+->RefactoringNumber->65<-MoveField(Class_5;org.iselab.grocery.repository.ProductRepository;[order];[])
+->RefactoringNumber->72<-PushDownField(org.iselab.grocery.repository.ProductRepository;Class_8;[order];[])
+->RefactoringNumber->74<-DecreaseFieldSecurity(org.iselab.grocery.repository.ProductRepository;;[uuidutils];[])
+->RefactoringNumber->78<-PushDownField(org.iselab.grocery.repository.ProductRepository;Class_8;[uuidutils];[])
+->RefactoringNumber->79<-PullUpField(Class_8;org.iselab.grocery.repository.ProductRepository;[uuidutils];[])
+->RefactoringNumber->88<-MoveField(Class_2;org.iselab.grocery.repository.ProductRepository;[input];[])
+->RefactoringNumber->112<-PullUpMethod(Class_8;org.iselab.grocery.repository.ProductRepository;[];[getOrder])
+->RefactoringNumber->115<-PullUpField(Class_8;org.iselab.grocery.repository.ProductRepository;[product];[])
+->RefactoringNumber->118<-PullUpField(Class_8;org.iselab.grocery.repository.ProductRepository;[order];[])
+->RefactoringNumber->119<-PushDownMethod(org.iselab.grocery.repository.ProductRepository;Class_8;[];[max])
+->RefactoringNumber->121<-MoveField(org.iselab.grocery.repository.ProductRepository;Class_28;[order];[])
+->RefactoringNumber->124<-PushDownMethod(org.iselab.grocery.repository.ProductRepository;Class_8;[];[save])
+<-endRefactoring marker->
 package org.iselab.grocery.repository;
 
 import java.util.ArrayList;

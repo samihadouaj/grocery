@@ -1,3 +1,7 @@
+->RefactoringNumber->59<-DecreaseFieldSecurity(org.iselab.grocery.domain.Product;;[price];[])
+->RefactoringNumber->92<-MoveField(org.iselab.grocery.domain.Product;org.iselab.grocery.controller.Order;[name];[])
+->RefactoringNumber->111<-MoveMethod(Class_8;org.iselab.grocery.domain.Product;[];[removeById])
+<-endRefactoring marker->
 package org.iselab.grocery.domain;
 
 import org.iselab.grocery.util.UUIDUtils;
