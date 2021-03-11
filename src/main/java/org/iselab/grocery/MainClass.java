@@ -1,3 +1,8 @@
+->RefactoringNumber->11597<-ExtractSubClass(org.iselab.grocery.MainClass;Class_4;[];[run])
+->RefactoringNumber->11598<-PushDownMethod(org.iselab.grocery.MainClass;Class_4;[];[showMenu])
+->RefactoringNumber->11640<-PullUpMethod(Class_4;org.iselab.grocery.MainClass;[];[main])
+->RefactoringNumber->11673<-MoveField(org.iselab.grocery.repository.ProductRepository;org.iselab.grocery.MainClass;[order];[])
+<-endRefactoring marker->
 package org.iselab.grocery;
 
 import com.sun.org.apache.xpath.internal.operations.Or;

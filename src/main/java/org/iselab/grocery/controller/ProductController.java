@@ -1,3 +1,8 @@
+->RefactoringNumber->11600<-MoveField(org.iselab.grocery.controller.ProductController;org.iselab.grocery.domain.Employee;[productRepository];[])
+->RefactoringNumber->11624<-IncreaseMethodSecurity(org.iselab.grocery.controller.ProductController;;[];[showMenu])
+->RefactoringNumber->11642<-ExtractSuperClass(org.iselab.grocery.controller.ProductController;Class_21;[];[remove])
+->RefactoringNumber->11649<-ExtractSubClass(org.iselab.grocery.controller.ProductController;Class_28;[];[])
+<-endRefactoring marker->
 package org.iselab.grocery.controller;
 
 import java.util.Arrays;
