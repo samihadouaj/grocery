@@ -1,0 +1,13 @@
+Project Name,Package Name,Type Name,Code Smell
+grocery,org.iselab.grocery.util,SystemUtils,Deficient Encapsulation
+grocery,org.iselab.grocery.controller,ProductController,Unutilized Abstraction
+grocery,org.iselab.grocery.controller,Myclass,Unnecessary Abstraction
+grocery,org.iselab.grocery.controller,Myclass,Unutilized Abstraction
+grocery,org.iselab.grocery.domain,Manager,Unnecessary Abstraction
+grocery,org.iselab.grocery.domain,Manager,Unutilized Abstraction
+grocery,org.iselab.grocery.domain,Customer,Unnecessary Abstraction
+grocery,org.iselab.grocery.domain,Customer,Unutilized Abstraction
+grocery,org.iselab.grocery.domain,Person,Unnecessary Abstraction
+grocery,org.iselab.grocery.domain,Person,Unutilized Abstraction
+grocery,org.iselab.grocery.domain,Employee,Unnecessary Abstraction
+grocery,org.iselab.grocery.domain,Employee,Unutilized Abstraction

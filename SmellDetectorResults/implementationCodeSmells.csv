@@ -1,0 +1,11 @@
+Project Name,Package Name,Type Name,Method Name,Code Smell
+grocery,org.iselab.grocery.util,SystemUtils,pressEnterKeyToContinue,Empty catch clause
+grocery,org.iselab.grocery.util,SystemUtils,printHeader,Magic Number
+grocery,org.iselab.grocery.controller,ProductController,start,Magic Number
+grocery,org.iselab.grocery.controller,ProductController,start,Magic Number
+grocery,org.iselab.grocery.controller,ProductController,start,Magic Number
+grocery,org.iselab.grocery.controller,ProductController,start,Magic Number
+grocery,org.iselab.grocery.controller,ProductController,start,Magic Number
+grocery,org.iselab.grocery.controller,Shapes,calculateShape,Magic Number
+grocery,org.iselab.grocery,MainClass,run,Magic Number
+grocery,org.iselab.grocery,MainClass,run,Missing default
