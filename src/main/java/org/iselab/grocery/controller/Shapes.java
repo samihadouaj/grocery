@@ -11,6 +11,7 @@ public abstract class Shapes {
 		System.out.println("this is a "+ this.shape);
 	}
 	public abstract double calculateArea(double d);
+	public abstract double calculateArea(double a,double b);
 
 
 
