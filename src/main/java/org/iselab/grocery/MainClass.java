@@ -1,12 +1,16 @@
 package org.iselab.grocery;
 
 import org.iselab.grocery.controller.ProductController;
+import org.iselab.grocery.domain.Employee;
+import org.iselab.grocery.domain.Person;
 import org.iselab.grocery.util.SystemUtils;
 
 public class MainClass {
 
     public static void main(String[] args) {
 
+        Person person = new Employee("3mor");
+        
         MainClass mainClass = new MainClass();
 
         mainClass.run();
