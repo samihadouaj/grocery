@@ -15,15 +15,15 @@ public class ProductController {
     public ProductController() {
         this.productRepository = new ProductRepository();
     }
-    
+
     public void print(List<Product> products) {
-       
+
         String template = "%-2s %4s %-7s %4s %-5s";
 
         System.out.println("-------------------------------");
         System.out.println(String.format(template, "Id", "|", "Name", "|", "Amount"));
         System.out.println("-------------------------------");
-        
+
         for (Product p : products) {
             System.out.println(String.format(template, p.getId(), "|", p.getName(), "|", p.getAmount()));
         }
@@ -50,26 +50,26 @@ public class ProductController {
     public void listAll() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "List All");
-        
+
         print(productRepository.findAll());
-        
+
         SystemUtils.pressEnterKeyToContinue();
     }
 
     public void remove() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "Remove by Id");
-        
+
         System.out.print("Id: ");
-        
+
         int id = SystemUtils.getIntFromKeyboard();
 
         System.out.println("----------------");
-        
+
         Product removed = productRepository.removeById(id);
 
         if (removed == null) {
@@ -77,27 +77,35 @@ public class ProductController {
         } else {
             System.out.println("Product " + removed.getName() + " was successfully removed");
         }
-        Shapes shapes = new Shapes();
-        int sr = shapes.calculateShape("circle");
-        System.out.println("this is a useless thing for test: "+ sr);
+        Shapes circle = new Circle(4,"circle");
+        circle.getShape();
+        double area = circle.calculateArea(4);
+        System.out.println("this is a useless thing for test: "+ area);
+        SystemUtils.pressEnterKeyToContinue();
+
+
+        Shapes rectangle = new Rectangle("Rectangle",6,7);
+        rectangle.getShape();
+        double areaRec = rectangle.calculateArea(4,6);
+        System.out.println("this is a useless thing for test: "+ areaRec);
         SystemUtils.pressEnterKeyToContinue();
     }
-    
+
     public void searchByName() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "Search by Name");
-        
+
         System.out.print("Name: ");
-        
+
         String name = SystemUtils.getStringFromKeyboard();
 
         print(productRepository.findByName(name));
-        
+
         SystemUtils.pressEnterKeyToContinue();
     }
-    
+
     public void searchById() {
 
         SystemUtils.clearScreen();
@@ -122,9 +130,9 @@ public class ProductController {
     public void addProduct() {
 
         SystemUtils.clearScreen();
-        
+
         SystemUtils.printHeader("Products", "Add");
-        
+
         Product product = new Product();
 
         System.out.print("Name: ");
